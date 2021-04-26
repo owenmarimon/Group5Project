@@ -18,8 +18,38 @@ public class AlarmSystem implements SelfCheckCapable {
 	 * Notifies when suspicious activity occurs through sound.
 	 */
 	void AlertPersonnel() {
+	
 		
 	}
+	
+	/**
+	 * Removes focus from suspicious activity.
+	 */
+	void Disengage() {
+		
+	}
+	
+	/**
+	 * Powers off security system.
+	 */
+	void PowerOff() {
+		
+	}
+	
+	/**
+	 * Powers on security system.
+	 */
+	void PowerOn() {
+		
+	}
+	
+	/**
+	 * System is notified when threat appears.
+	 */
+	void ReceiveAlert() {
+		
+	}
+	
 
 	@Override
 	public String getComponentName() {

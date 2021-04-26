@@ -36,6 +36,69 @@ public class Drone implements SelfCheckCapable {
 	void SendData() {
 		
 	}
+	
+	/**
+	 * Drone motor is activated.
+	 */
+	void MotorOn() {
+		
+	}
+	
+	/**
+	 * Drone motor is deactivated.
+	 */
+	void MotorOff() {
+		
+	}
+	
+	/**
+	 * Avoids any obstacles along its path.
+	 */
+	void Avoid() {
+		
+	}
+	
+	/**
+	 * Moves drone forward.
+	 */
+	void Forward() {
+		
+	}
+	
+	/**
+	 * Moves drone backward.
+	 */
+	void Back() {
+		
+	}
+	
+	/**
+	 * Increase drone altitude.
+	 */
+	void IncreaseElevation() {
+		
+	}
+	
+	/**
+	 * Decrease drone altitude.
+	 */
+	void DecreaseElevation() {
+		
+	}
+	
+	/**
+	 * Moves drone left.
+	 */
+	void Left() {
+		
+	}
+	
+	/**
+	 * Moves drone right.
+	 */
+	void Right() {
+		
+	}
 
 	@Override
 	public String getComponentName() {
